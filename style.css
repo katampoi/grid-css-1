@@ -7,7 +7,6 @@
     text-decoration: none;
     position: relative;
     overflow: hidden;
-    background-color: #ccb0d7;
     border-radius: 5px;
     align-items: center;
 }
@@ -245,3 +244,138 @@ nav ul li a {
     width: 200px;
   }
 }
+
+
+.login-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #a977aa,#bd76a8, #49c493,#a455ab);
+
+}
+
+.container-login {
+    background: linear-gradient(to right, #a977aa,#bd76a8, #49c493,#a455ab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-box {
+    border-radius: 25px;
+    padding: 45px;
+    box-shadow: 50px 80px 80px rgba(9, 54, 19, 0.1);
+    text-align: center;
+    background: linear-gradient(to right, #a977aa,#bd76a8, #49c493,#a455ab);
+}
+
+.container-header{
+    background: linear-gradient(to right, #a977aa,#bd76a8, #49c493,#a455ab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    padding: auto;
+
+}
+
+.toggle-buttons{
+        background: linear-gradient(to right, #a977aa,#bd76a8, #49c493,#a455ab);
+}
+
+.container-login{
+            background: linear-gradient(to right, #a977aa,#bd76a8, #49c493,#a455ab);
+}
+
+.login-h1{
+    margin-bottom: -15px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.toggle-buttons {
+    margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+    background-color: #ff6bc1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.toggle-buttons button:hover {
+    background-color: #ccb0d7;;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border: 2px solid #f0e68c;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form input:focus {
+    border-color: #ccb0d7;;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #ccb0d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #f0e68c;
+    color: #333;
+}
+
+.switch {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.switch span {
+    color: #ff6b6b;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
