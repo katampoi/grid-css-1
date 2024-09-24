@@ -379,3 +379,78 @@ h2 {
     display: none;
 }
 
+/* about css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+.body-about {
+    background-color: #e9bff8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container-about {
+    background-color: #e9bff8;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    max-width: 700px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 1px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+/* Logo Styling */
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+/* About Section */
+.about-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Button Styling */
+.button-container {
+    margin-top: 20px;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #a146c3;
+    color: rgb(19, 15, 15);
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #db34b7;
+}
